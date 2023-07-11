@@ -1,0 +1,16 @@
+{
+  "name": "dev_with_ai",
+  "image": "ddosakura/hakke:1.2.0-lit",
+  "runArgs": [
+    "-m=512M"
+  ],
+  "postCreateCommand": "corepack enable",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+        "editor.fontLigatures": true
+      }
+    }
+  }
+}
